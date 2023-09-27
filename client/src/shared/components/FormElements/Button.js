@@ -5,7 +5,7 @@ const Button = (props) => {
 	if (props.href) {
 		return (
 			<a
-				className={`w-full my-5 py-2 bg-yellow shadow-lg shadow-yellow-500/50 hover:shadow-yellow-500/40 text-black font-semibold rounded-lg ${
+				className={`w-full my-5 py-2  shadow-lg shadow-Eerie hover:shadow-Bone text-black font-semibold rounded-lg ${
 					props.inverse ? 'text-white' : 'text-black'
 				}`}
 				href={props.href}
@@ -19,7 +19,7 @@ const Button = (props) => {
 			<Link
 				to={props.to}
 				exact={props.exact}
-				className={`w-full my-5 py-2 bg-yellow shadow-lg shadow-yellow-500/50 hover:shadow-yellow-500/40 text-black font-semibold rounded-lg ${
+				className={`w-full my-5 py-2  shadow-lg hover:shadow-Eerie-50 text-black font-semibold rounded-lg ${
 					props.inverse ? 'text-white' : 'text-black'
 				}`}
 			>
@@ -29,7 +29,7 @@ const Button = (props) => {
 	}
 	return (
 		<button
-			className={`cursor-pointer w-full my-5 py-2 bg-yellow shadow-lg shadow-yellow-500/50 hover:shadow-yellow-500/40 text-black font-semibold rounded-lg ${
+			className={`cursor-pointer w-full my-5 py-2 bg-Coffe shadow-lg shadow-Eerie hover:shadow-Bone-500/40 text-black font-semibold rounded-lg ${
 				props.inverse ? 'text-white' : 'text-black'
 			}`}
 			type={props.type}
