@@ -4,11 +4,11 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				darkGrey: '#313233',
-				grey: '#686b71',
-				lightGrey: '#a8aaad',
-				white: '#f0f0f0',
-				yellow: '#ffdc48'
+				Pink: '#E7BBE3',
+				Bone: '#D2D0BA',
+				Coffe: '#513C2C',
+				Celtic: '#276FBF',
+				Eerie: '#222222'
 			},
 			spacing: {
 				90: '40rem'
